@@ -47,7 +47,9 @@ opacity: 0;
 flex: 5;
 }
 .panel.active h3 {
-opacity: 1;}
+opacity: 1;
+transition: opacity 0.3s ease-in 0.40s ;
+}
 
 @media(max-width: 580px) {
 .container {
